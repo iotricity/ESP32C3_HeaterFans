@@ -84,9 +84,9 @@ void setup(void) {
 
   WiFi.mode(WIFI_STA);
   // Add one or more access point SSID's and passwords here
-  wifiMulti.addAP("Kartoffelsalat", "Gekkenhuis187");
-  wifiMulti.addAP("Hypertron", "Gekkenhuis187");
-  wifiMulti.addAP("Bananadrama", "Gekkenhuis187");
+  wifiMulti.addAP("yourssid", "somepassword");
+  //wifiMulti.addAP("AnotherSSID", "somepassword");
+  //wifiMulti.addAP("AnotherSSID", "somepassword");
 
   server.begin();
 
